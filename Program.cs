@@ -21,7 +21,7 @@
         {
             word = word.Replace(" ", "").Replace(".","").Replace(",","").ToLower();
             bool result = false;
-            for (int i = 0; i < word.Length; i++)
+            for (int i = 0; i < word.Length/2; i++)
             {
                 if(word[i] == word[(word.Length - 1)- i])
                 {
